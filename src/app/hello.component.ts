@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { SubscriptionLoggable } from 'rxjs/internal/testing/SubscriptionLoggable';
 
 @Component({
   selector: 'hello',
@@ -7,4 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class HelloComponent  {
   @Input() name: string;
+  
 }
